@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Переменные окружения и токены
+.env
+token.txt
+BOT_TOKEN
+
+# Файлы данных бота (не храните историю заявок в публичном репозитории)
+vacancy_stats.json
+vacancy_status.json
+bot.log
+
+# Файлы IDE
+.idea/
+.vscode/
+*.pyc
+__pycache__/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логотипы и медиа (если есть локальные копии)
+logo.png
+images/
